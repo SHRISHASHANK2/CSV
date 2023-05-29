@@ -1,0 +1,27 @@
+{
+  "name": "sndsabin/objects-with-csv-bundle",
+  "description": "Enables users to attach objects via csv upload",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "sndsabin",
+      "email": "sndsabin@gmail.com"
+    }
+  ],
+  "require": {
+    "pimcore/pimcore": ">=10.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectsWithCsvBundle\\": "/"
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "ObjectsWithCsvBundle\\ObjectsWithCsvBundle"
+      ]
+    }
+  }
+}
